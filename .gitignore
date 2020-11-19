@@ -1,0 +1,48 @@
+/target/
+*target*
+*.jar
+*.war
+*.ear
+*.class
+*.iml
+
+# IntelliJ
+**/workspace.xml
+**/tasks.xml
+.idea/libraries/*.xml
+*.iws
+**/out
+# Maven
+log/
+target/
+
+.*/*.xml
+
+# Neo4j
+**/*.db
+
+#Gradle
+.gradle
+build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# OSX
+**/.DS_Store
+.idea/
+*/.idea/*
+
+#eclipse
+.classpath
+.project
+.settings/
+bin/
+*.ipr
+*.orig
+**/out/
+
+generated/
+
+*~
+/.idea/
